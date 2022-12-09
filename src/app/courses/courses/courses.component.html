@@ -13,9 +13,10 @@
           {{ course.name }}
           <mat-icon
             aria-hidden="false"
-            aria-label="Example home icon"
+            aria-label="Categoria do Curso"
             fontIcon="home"
-          ></mat-icon>
+            >{{ course.category | category }}</mat-icon
+          >
         </td>
       </ng-container>
 
