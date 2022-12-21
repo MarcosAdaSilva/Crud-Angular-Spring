@@ -30,6 +30,12 @@
             <mat-icon>add</mat-icon>
           </button>
         </mat-header-cell>
+
+        <mat-cell *matCellDef="let course">
+          <button mat-icon-button color="primary" aria-label="Editar Curso">
+            <mat-icon>edit</mat-icon>
+          </button>
+        </mat-cell>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
