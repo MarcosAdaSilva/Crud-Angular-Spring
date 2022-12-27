@@ -20,6 +20,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatIconModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCardModule,
   ],
 })
 export class AppMaterialModule {}
